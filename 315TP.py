@@ -267,7 +267,7 @@ def pumpOptimization():
 
     pumpsOPs = costing(pumpCurvesVar, sysCurves, pipeOps, pumpDiameters, waterDemandH, maxNoMotors)
 
-    #pumpsOPs.to_csv('OPV.csv')
+    pumpsOPs.to_csv('OPV.csv')
 
 if __name__ == '__main__':
     pumpOptimization()
